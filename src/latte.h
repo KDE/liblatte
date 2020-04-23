@@ -89,13 +89,6 @@ public:
     };
     Q_ENUM(EdgesAndAlignments);
 
-    enum SessionType
-    {
-        DefaultSession = 0,
-        AlternativeSession
-    };
-    Q_ENUM(SessionType)
-
     enum ScrollAction
     {
         ScrollNone = 0,
