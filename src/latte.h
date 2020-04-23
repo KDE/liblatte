@@ -169,14 +169,6 @@ public:
     };
     Q_ENUM(ImportExportState);
 
-    enum BackgroundStyle
-    {
-        ColorStyle = 0,
-        CustomBackgroundStyle
-    };
-    Q_ENUM(BackgroundStyle);
-
-
     enum LaunchersGroup
     {
         UniqueLaunchers = 0,
