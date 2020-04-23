@@ -161,14 +161,6 @@ public:
     };
     Q_ENUM(SettingsComplexity);
 
-    enum ImportExportState
-    {
-        Failed = 0,
-        Updated = 2,
-        Installed = 4
-    };
-    Q_ENUM(ImportExportState);
-
     enum LaunchersGroup
     {
         UniqueLaunchers = 0,
