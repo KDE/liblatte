@@ -146,14 +146,6 @@ public:
     };
     Q_ENUM(MouseSensitivity);
 
-    enum SettingsComplexity
-    {
-        BasicSettings = 0,
-        AdvancedSettings = 2,
-        ExpertSettings = 4
-    };
-    Q_ENUM(SettingsComplexity);
-
     enum LaunchersGroup
     {
         UniqueLaunchers = 0,
